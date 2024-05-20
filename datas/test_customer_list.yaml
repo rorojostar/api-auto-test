@@ -1,0 +1,112 @@
+case_customer_list:
+  case_001: # 根据customerno查询客户
+    customerNo: "test0001"
+    customerName: null
+    address: null
+    mobile: null
+    tel: null
+    customerPerson: null
+    customerLevel: null
+    email: null
+    exp: "test0001"
+
+  case_002: # 根据customerName查询客户
+    customerNo: null
+    customerName: "京西"
+    address: null
+    mobile: null
+    tel: null
+    customerPerson: null
+    customerLevel: null
+    email: null
+    exp: "京西"
+
+  case_003: # 根据address查询客户
+    customerNo: null
+    customerName: null
+    address: "上海移动"
+    mobile: null
+    tel: null
+    customerPerson: null
+    customerLevel: null
+    email: null
+    exp: "上海移动"
+
+  case_004: # 根据mobile查询客户
+    customerNo: null
+    customerName: null
+    address: null
+    mobile: "13100010010"
+    tel: null
+    customerPerson: null
+    customerLevel: null
+    email: null
+    exp: "13100010010"
+
+  case_005: # 根据tel查询客户
+    customerNo: null
+    customerName: null
+    address: null
+    mobile: null
+    tel: "021-12346789"
+    customerPerson: null
+    customerLevel: null
+    email: null
+    exp: "021-12346789"
+
+  case_006: # 根据customerPerson查询客户
+    customerNo: null
+    customerName: null
+    address: null
+    mobile: null
+    tel: null
+    customerPerson: "移动"
+    customerLevel: null
+    email: null
+    exp: "移动"
+
+  case_007: # 根据customerLevel查询客户
+    customerNo: null
+    customerName: null
+    address: null
+    mobile: null
+    tel: null
+    customerPerson: null
+    customerLevel: "第二级"
+    email: null
+    exp: "第二级"
+
+  case_008: # 根据email查询客户
+    customerNo: null
+    customerName: null
+    address: null
+    mobile: null
+    tel: null
+    customerPerson: null
+    customerLevel: null
+    email: "13100010000@qq.com"
+    exp: "13100010000@qq.com"
+
+  case_009: # 根据customerPerson和customerLevel查询客户
+    customerNo: null
+    customerName: null
+    address: null
+    mobile: null
+    tel: null
+    customerPerson: "张三"
+    customerLevel: "第一级"
+    email: null
+    exp: "张三"
+    exp2: "第一级"
+
+  case_010: # 根据email查询客户
+    customerNo: null
+    customerName: null
+    address: null
+    mobile: "13817421067"
+    tel: null
+    customerPerson: "张三"
+    customerLevel: null
+    email: null
+    exp: "13817421067"
+    exp2: "张三"

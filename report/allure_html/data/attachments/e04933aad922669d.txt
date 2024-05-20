@@ -1,0 +1,7 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:232 Starting new HTTP connection (1): 60.204.225.104:9632
+DEBUG    urllib3.connectionpool:connectionpool.py:465 http://60.204.225.104:9632 "GET /captchaImage HTTP/1.1" 200 None
+DEBUG    urllib3.connectionpool:connectionpool.py:232 Starting new HTTP connection (1): 60.204.225.104:9632
+DEBUG    urllib3.connectionpool:connectionpool.py:465 http://60.204.225.104:9632 "POST /login HTTP/1.1" 200 None
+DEBUG    urllib3.connectionpool:connectionpool.py:232 Starting new HTTP connection (1): 60.204.225.104:9632
+DEBUG    urllib3.connectionpool:connectionpool.py:465 http://60.204.225.104:9632 "POST /wms/customer HTTP/1.1" 200 None
+INFO     root:test_wms_customer_adduser_003.py:49 接口响应符合预期，用例执行成功，请求参数是：{'customerNo': 'wms00004', 'customerName': 'wms00004', 'address': '上海市', 'mobile': '13145676789', 'tel': '021-12344567', 'customerPerson': '大宇', 'customerLevel': '一级', 'email': '598172372@qq.com', 'remark': '新增客户', 'bankAccount': '6543210000000001', 'exp': 1}

@@ -1,0 +1,21 @@
+case_login:
+  case_001: # 测试用户正常登陆场景
+    username: "admin"
+    password: "e10adc3949ba59abbe56e057f20f883e"
+    code: "2"
+    exp: "操作成功"
+  case_002: # 测试用户不存在的场景
+    username: "admin1"
+    password: "e10adc3949ba59abbe56e057f20f883e"
+    code: "2"
+    exp: "登录用户：admin1 不存在"
+  case_003: # 测试用户密码错误的场景
+    username: "admin"
+    password: "e10adc3949ba5"
+    code: "2"
+    exp: "用户不存在/密码错误"
+  case_004: # 测试验证码的场景
+    username: "admin"
+    password: "e10adc3949ba59abbe56e057f20f883e"
+    code: "7"
+    exp: "验证码错误"

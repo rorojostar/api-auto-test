@@ -1,0 +1,118 @@
+{
+  "uid" : "17c308a3faffc0ab",
+  "name" : "test_customer_list[customer_list7]",
+  "fullName" : "testcase.test_wms_customer_list_002.TestCustomer#test_customer_list",
+  "historyId" : "3b57a0ee6b7ad1bf92bbbcaea0a43a3b",
+  "time" : {
+    "start" : 1716024419817,
+    "stop" : 1716024420028,
+    "duration" : 211
+  },
+  "description" : "接口测试用例",
+  "descriptionHtml" : "<p>接口测试用例</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "conn_db",
+    "time" : {
+      "start" : 1716024419769,
+      "stop" : 1716024419816,
+      "duration" : 47
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "接口测试用例",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a986b1f2bf1517b7",
+      "name" : "log",
+      "source" : "a986b1f2bf1517b7.txt",
+      "type" : "text/plain",
+      "size" : 1629
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "conn_db::0",
+    "time" : {
+      "start" : 1716024420029,
+      "stop" : 1716024420029,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "wms仓管系统-查询用户接口"
+  }, {
+    "name" : "severity",
+    "value" : "Critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_wms_customer_list_002"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCustomer"
+  }, {
+    "name" : "host",
+    "value" : "MS-ZTCNWBTJJGHS"
+  }, {
+    "name" : "thread",
+    "value" : "4284-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_wms_customer_list_002"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "customer_list",
+    "value" : "{'customerNo': None, 'customerName': None, 'address': None, 'mobile': None, 'tel': None, 'customerPerson': None, 'customerLevel': None, 'email': '13100010000@qq.com', 'exp': '13100010000@qq.com'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "17c308a3faffc0ab.json",
+  "parameterValues" : [ "{'customerNo': None, 'customerName': None, 'address': None, 'mobile': None, 'tel': None, 'customerPerson': None, 'customerLevel': None, 'email': '13100010000@qq.com', 'exp': '13100010000@qq.com'}" ]
+}

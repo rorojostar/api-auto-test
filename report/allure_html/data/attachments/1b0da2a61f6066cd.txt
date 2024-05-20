@@ -1,0 +1,6 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:232 Starting new HTTP connection (1): 60.204.225.104:9632
+DEBUG    urllib3.connectionpool:connectionpool.py:465 http://60.204.225.104:9632 "GET /captchaImage HTTP/1.1" 200 None
+DEBUG    urllib3.connectionpool:connectionpool.py:232 Starting new HTTP connection (1): 60.204.225.104:9632
+DEBUG    urllib3.connectionpool:connectionpool.py:465 http://60.204.225.104:9632 "POST /login HTTP/1.1" 200 None
+DEBUG    urllib3.connectionpool:connectionpool.py:232 Starting new HTTP connection (1): 60.204.225.104:9632
+DEBUG    urllib3.connectionpool:connectionpool.py:465 http://60.204.225.104:9632 "POST /wms/customer/list?page=0&size=10 HTTP/1.1" 200 None

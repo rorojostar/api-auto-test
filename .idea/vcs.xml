@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/aututesta" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/aututesta/test_yaml" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/aututesta/wms_python_yaml" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/test_yaml" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/wms_python_yaml" vcs="Git" />
+  </component>
+</project>

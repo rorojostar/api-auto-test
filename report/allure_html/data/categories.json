@@ -1,0 +1,51 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 3 == 1",
+      "children" : [ {
+        "name" : "test_customer_list[customer_list8]",
+        "uid" : "7ed5348094dfbb55",
+        "parentUid" : "d77bdf257e9157e49d7642deaa3c8808",
+        "status" : "failed",
+        "time" : {
+          "start" : 1716024420071,
+          "stop" : 1716024420285,
+          "duration" : 214
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'customerNo': None, 'customerName': None, 'address': None, 'mobile': None, 'tel': None, 'customerPerson': '张三', 'customerLevel': '第一级', 'email': None, 'exp': '张三', 'exp2': '第一级'}" ]
+      } ],
+      "uid" : "d77bdf257e9157e49d7642deaa3c8808"
+    }, {
+      "name" : "AssertionError: assert 2 == 1",
+      "children" : [ {
+        "name" : "test_customer_list[customer_list9]",
+        "uid" : "c7a04ea4e78f6e00",
+        "parentUid" : "20b3ab6bb3644f149f5fba207dddc2af",
+        "status" : "failed",
+        "time" : {
+          "start" : 1716024420378,
+          "stop" : 1716024420573,
+          "duration" : 195
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'customerNo': None, 'customerName': None, 'address': None, 'mobile': '13817421067', 'tel': None, 'customerPerson': '张三', 'customerLevel': None, 'email': None, 'exp': '13817421067', 'exp2': '张三'}" ]
+      } ],
+      "uid" : "20b3ab6bb3644f149f5fba207dddc2af"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

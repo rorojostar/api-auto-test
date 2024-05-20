@@ -1,0 +1,85 @@
+case_customer_adduser:
+  case_001: # 测试新增一条正常的用户信息
+    customerNo: "wms00004"
+    customerName: "wms00004"
+    address: "上海市"
+    mobile: "13145676789"
+    tel: "021-12344567"
+    customerPerson: "大宇"
+    customerLevel: "一级"
+    email: "598172372@qq.com"
+    remark: "新增客户"
+    bankAccount: "6543210000000001"
+    exp: 1
+  case_002: # 测试新增客户数据时未填写编号
+    customerNo: null
+    customerName: "wms00005"
+    address: "上海市"
+    mobile: "131000000002"
+    tel: "021-00000002"
+    customerPerson: "大宇"
+    customerLevel: "一级"
+    email: "598000002@qq.com"
+    remark: "新增客户"
+    bankAccount: "6543210000000002"
+    exp: 500
+  case_003: # 测试新增客户数据时未填写客户名
+    customerNo: "wms00006"
+    customerName: null
+    address: "上海市"
+    mobile: "131000000003"
+    tel: "021-00000003"
+    customerPerson: "大宇"
+    customerLevel: "一级"
+    email: "598000003@qq.com"
+    remark: "新增客户"
+    bankAccount: "6543210000000003"
+    exp: 500
+  case_004: # 测试新增客户数据时未填写银行卡号
+    customerNo: "wms00007"
+    customerName: "wms00007"
+    address: "上海市"
+    mobile: "131000000004"
+    tel: "021-00000004"
+    customerPerson: "大宇"
+    customerLevel: "一级"
+    email: "598000004@qq.com"
+    remark: "新增客户"
+    bankAccount: null
+    exp: 500
+  case_005: # 测试新增客户数据时银行卡号输入字母
+    customerNo: "wms00008"
+    customerName: "wms00008"
+    address: "上海市"
+    mobile: "131000000005"
+    tel: "021-00000005"
+    customerPerson: "大宇"
+    customerLevel: "一级"
+    email: "598000005@qq.com"
+    remark: "新增客户"
+    bankAccount: "customerPerson"
+    exp: 500
+  case_006: # 测试新增客户数据时银行卡号输入不在12-19位
+    customerNo: "wms00009"
+    customerName: "wms00009"
+    address: "上海市"
+    mobile: "131000000005=6"
+    tel: "021-00000006"
+    customerPerson: "大宇"
+    customerLevel: "一级"
+    email: "598000005@qq.com"
+    remark: "新增客户"
+    bankAccount: "65432100006"
+    exp: 500
+  case_007: # 测试新增客户数据时银行卡号输入不在12-19位
+    customerNo: "wms00010"
+    customerName: "wms00010"
+    address: "上海市"
+    mobile: "131000000007"
+    tel: "021-00000007"
+    customerPerson: "大宇"
+    customerLevel: "一级"
+    email: "598000007@qq.com"
+    remark: "新增客户"
+    bankAccount: "65432100000000000007"
+    exp: 500

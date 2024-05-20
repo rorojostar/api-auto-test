@@ -1,0 +1,48 @@
+{
+  "total" : 4,
+  "items" : [ {
+    "uid" : "1ddb4bc89958d5863990b6c13d211cc9",
+    "name" : "wms仓管系统-查询用户接口",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 8,
+      "unknown" : 0,
+      "total" : 10
+    }
+  }, {
+    "uid" : "78157b710d832c348a6ed0b9ad4bb635",
+    "name" : "wms仓管系统-新增客户接口",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
+    "uid" : "fb0caa0143ffeabd02697937c8824204",
+    "name" : "wms仓管系统-修改供应商信息接口",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "3bcc449e5ac51fcbea9e5c4c5358dbca",
+    "name" : "wms仓管系统-登陆接口",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  } ]
+}
