@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 ※※※※※※※※※※※※※※※※※※※※※※※※※※※
 ※   UserName  :   Y.cao ☆彡             
@@ -6,6 +7,7 @@
 ※   Time      :   2024/4/17 -- 22:25     
 ※※※※※※※※※※※※※※※※※※※※※※※※※※※
 """
+
 import os
 import pytest
 from utils.path_utils import REPORT_JSON, REPORT_HTML, CASES_FILE
