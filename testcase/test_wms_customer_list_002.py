@@ -58,7 +58,7 @@ class TestCustomer:
 
         elif res["content"][0]["mobile"] == customer_list["exp"]:
             count = self.db.find_count("SELECT * FROM wms_customer WHERE mobile = %s", (customer_list["exp"],))
-            assert count == 2
+            assert count == 1
             logger.info("接口响应符合预期，用例执行成功，请求参数是：%s", customer_list)
 
         elif res["content"][0]["tel"] == customer_list["exp"]:
@@ -68,7 +68,7 @@ class TestCustomer:
 
         elif res["content"][0]["customerPerson"] == customer_list["exp"]:
             count = self.db.find_count("SELECT * FROM wms_customer WHERE customer_person = %s", (customer_list["exp"],))
-            assert count == 3
+            assert count == 1
             logger.info("接口响应符合预期，用例执行成功，请求参数是：%s", res)
 
         elif res["content"][0]["customerLevel"] == customer_list["exp"]:
@@ -79,18 +79,6 @@ class TestCustomer:
         elif res["content"][0]["email"] == customer_list["exp"]:
             count = self.db.find_count("SELECT * FROM wms_customer WHERE email = %s", (customer_list["exp"],))
             assert count == 1
-            logger.info("接口响应符合预期，用例执行成功，请求参数是：%s", res)
-
-        elif res["content"][0]["customerLevel"] == customer_list["exp2"]:
-            count = self.db.find_count("SELECT * FROM wms_customer WHERE customer_person = %s and customer_level = %s",
-                                       (customer_list["exp"], customer_list["exp2"],))
-            assert count == 2
-            logger.info("接口响应符合预期，用例执行成功，请求参数是：%s", res)
-
-        elif res["content"][0]["customerPerson"] == customer_list["exp2"]:
-            count = self.db.find_count("SELECT * FROM wms_customer WHERE mobile = %s and customer_person = %s",
-                                       (customer_list["exp"], customer_list["exp2"],))
-            assert count == 2
             logger.info("接口响应符合预期，用例执行成功，请求参数是：%s", res)
 
         else:

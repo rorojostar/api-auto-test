@@ -1,0 +1,118 @@
+{
+  "uid" : "5768cfd5c5c44ca0",
+  "name" : "test_customer_adduser[adduser_msg1]",
+  "fullName" : "testcase.test_wms_customer_adduser_003.TestAdduser#test_customer_adduser",
+  "historyId" : "95f198662a8635e400114208bfc143b6",
+  "time" : {
+    "start" : 1716737423088,
+    "stop" : 1716737423315,
+    "duration" : 227
+  },
+  "description" : "接口测试用例",
+  "descriptionHtml" : "<p>接口测试用例</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "conn_db",
+    "time" : {
+      "start" : 1716737423051,
+      "stop" : 1716737423088,
+      "duration" : 37
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "接口测试用例",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c920dfbdb4b7f0df",
+      "name" : "log",
+      "source" : "c920dfbdb4b7f0df.txt",
+      "type" : "text/plain",
+      "size" : 1070
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "conn_db::0",
+    "time" : {
+      "start" : 1716737423317,
+      "stop" : 1716737423317,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "Critical"
+  }, {
+    "name" : "feature",
+    "value" : "wms仓管系统-新增客户接口"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_wms_customer_adduser_003"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAdduser"
+  }, {
+    "name" : "host",
+    "value" : "MS-ZTCNWBTJJGHS"
+  }, {
+    "name" : "thread",
+    "value" : "25368-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_wms_customer_adduser_003"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "adduser_msg",
+    "value" : "{'customerNo': None, 'customerName': 'wms00005', 'address': '上海市', 'mobile': '131000000002', 'tel': '021-00000002', 'customerPerson': '大宇', 'customerLevel': '一级', 'email': '598000002@qq.com', 'remark': '新增客户', 'bankAccount': '6543210000000002', 'exp': 500}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5768cfd5c5c44ca0.json",
+  "parameterValues" : [ "{'customerNo': None, 'customerName': 'wms00005', 'address': '上海市', 'mobile': '131000000002', 'tel': '021-00000002', 'customerPerson': '大宇', 'customerLevel': '一级', 'email': '598000002@qq.com', 'remark': '新增客户', 'bankAccount': '6543210000000002', 'exp': 500}" ]
+}

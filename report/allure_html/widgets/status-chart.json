@@ -1,270 +1,250 @@
 [ {
-  "uid" : "ae146fe66f40bcee",
-  "name" : "test_customer_list[customer_list5]",
-  "time" : {
-    "start" : 1716736256980,
-    "stop" : 1716736257188,
-    "duration" : 208
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "4660ffda5498e374",
-  "name" : "test_login[user_info3]",
-  "time" : {
-    "start" : 1716736258618,
-    "stop" : 1716736258696,
-    "duration" : 78
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "d764094f81715edc",
-  "name" : "test_login[user_info0]",
-  "time" : {
-    "start" : 1716736258263,
-    "stop" : 1716736258402,
-    "duration" : 139
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "79eab7542ad095f3",
-  "name" : "test_login[user_info2]",
-  "time" : {
-    "start" : 1716736258470,
-    "stop" : 1716736258615,
-    "duration" : 145
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "4278fa1fe54a4869",
-  "name" : "test_customer_list[customer_list8]",
-  "time" : {
-    "start" : 1716736257767,
-    "stop" : 1716736257961,
-    "duration" : 194
-  },
-  "status" : "failed",
-  "severity" : "critical"
-}, {
-  "uid" : "f60075b742ab77d4",
+  "uid" : "fc11e3ef974cc660",
   "name" : "test_customer_list[customer_list4]",
   "time" : {
-    "start" : 1716736256686,
-    "stop" : 1716736256928,
-    "duration" : 242
+    "start" : 1716737425879,
+    "stop" : 1716737426080,
+    "duration" : 201
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "b3c663af680b5ee1",
-  "name" : "test_wms_supplier[supp_msg1]",
-  "time" : {
-    "start" : 1716736258993,
-    "stop" : 1716736259213,
-    "duration" : 220
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "c72166e83578c41e",
-  "name" : "test_customer_adduser[adduser_msg6]",
-  "time" : {
-    "start" : 1716736255325,
-    "stop" : 1716736255545,
-    "duration" : 220
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "5fe85519ed7d6849",
-  "name" : "test_customer_list[customer_list3]",
-  "time" : {
-    "start" : 1716736256422,
-    "stop" : 1716736256632,
-    "duration" : 210
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "d67e9d323a3990de",
-  "name" : "test_customer_list[customer_list1]",
-  "time" : {
-    "start" : 1716736255865,
-    "stop" : 1716736256087,
-    "duration" : 222
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "46e8807f70c1923e",
-  "name" : "test_customer_adduser[adduser_msg4]",
-  "time" : {
-    "start" : 1716736254835,
-    "stop" : 1716736255054,
-    "duration" : 219
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "d8b93a26e5614da",
-  "name" : "test_wms_supplier[supp_msg5]",
-  "time" : {
-    "start" : 1716736260112,
-    "stop" : 1716736260334,
-    "duration" : 222
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "a2b5d27548a9a605",
-  "name" : "test_wms_supplier[supp_msg0]",
-  "time" : {
-    "start" : 1716736258740,
-    "stop" : 1716736258955,
-    "duration" : 215
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "bac4b0f19f9d0312",
-  "name" : "test_wms_supplier[supp_msg4]",
-  "time" : {
-    "start" : 1716736259856,
-    "stop" : 1716736260065,
-    "duration" : 209
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "11ad19845182336c",
-  "name" : "test_customer_adduser[adduser_msg1]",
-  "time" : {
-    "start" : 1716736254083,
-    "stop" : 1716736254279,
-    "duration" : 196
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "565ea18f1fde3b45",
+  "uid" : "135cdecf2ecbd254",
   "name" : "test_customer_adduser[adduser_msg3]",
   "time" : {
-    "start" : 1716736254574,
-    "stop" : 1716736254786,
+    "start" : 1716737423692,
+    "stop" : 1716737423903,
+    "duration" : 211
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "2fd764242eb9ddef",
+  "name" : "test_customer_list[customer_list1]",
+  "time" : {
+    "start" : 1716737425079,
+    "stop" : 1716737425291,
     "duration" : 212
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "6e3135ada74a69c6",
-  "name" : "test_customer_list[customer_list7]",
-  "time" : {
-    "start" : 1716736257505,
-    "stop" : 1716736257714,
-    "duration" : 209
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "75c07896b7502f1a",
+  "uid" : "894fad1f808dfea2",
   "name" : "test_customer_list[customer_list6]",
   "time" : {
-    "start" : 1716736257241,
-    "stop" : 1716736257450,
-    "duration" : 209
+    "start" : 1716737426377,
+    "stop" : 1716737426605,
+    "duration" : 228
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "e7980b7b255e77da",
-  "name" : "test_customer_adduser[adduser_msg2]",
+  "uid" : "5de9c9a4706cd25b",
+  "name" : "test_customer_list[customer_list5]",
   "time" : {
-    "start" : 1716736254333,
-    "stop" : 1716736254539,
-    "duration" : 206
+    "start" : 1716737426131,
+    "stop" : 1716737426335,
+    "duration" : 204
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "40897b914c4b46de",
-  "name" : "test_customer_list[customer_list9]",
+  "uid" : "d5a497e1df32f1d5",
+  "name" : "test_login[user_info1]",
   "time" : {
-    "start" : 1716736258051,
-    "stop" : 1716736258254,
-    "duration" : 203
+    "start" : 1716737427056,
+    "stop" : 1716737427132,
+    "duration" : 76
   },
-  "status" : "failed",
+  "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "20313673727e2ec2",
-  "name" : "test_customer_adduser[adduser_msg0]",
+  "uid" : "474e6bf2b61ffda6",
+  "name" : "test_customer_adduser[adduser_msg4]",
   "time" : {
-    "start" : 1716736253819,
-    "stop" : 1716736254041,
+    "start" : 1716737423944,
+    "stop" : 1716737424215,
+    "duration" : 271
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c29d39b3046d3805",
+  "name" : "test_login[user_info3]",
+  "time" : {
+    "start" : 1716737427281,
+    "stop" : 1716737427351,
+    "duration" : 70
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "133f4485e62fa8a6",
+  "name" : "test_wms_supplier[supp_msg0]",
+  "time" : {
+    "start" : 1716737427392,
+    "stop" : 1716737427614,
     "duration" : 222
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "80ba4f6153119935",
-  "name" : "test_customer_adduser[adduser_msg5]",
+  "uid" : "b2978e02f1b40abc",
+  "name" : "test_customer_adduser[adduser_msg0]",
   "time" : {
-    "start" : 1716736255091,
-    "stop" : 1716736255281,
-    "duration" : 190
+    "start" : 1716737422795,
+    "stop" : 1716737423048,
+    "duration" : 253
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "5c7a079c16aed7a3",
-  "name" : "test_login[user_info1]",
-  "time" : {
-    "start" : 1716736258405,
-    "stop" : 1716736258466,
-    "duration" : 61
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "a91142b30d6b81b",
-  "name" : "test_customer_list[customer_list2]",
-  "time" : {
-    "start" : 1716736256127,
-    "stop" : 1716736256365,
-    "duration" : 238
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "17658f19644343ae",
-  "name" : "test_wms_supplier[supp_msg2]",
-  "time" : {
-    "start" : 1716736259269,
-    "stop" : 1716736259543,
-    "duration" : 274
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "26ad17823398bc55",
+  "uid" : "d38652ac06d9e345",
   "name" : "test_wms_supplier[supp_msg3]",
   "time" : {
-    "start" : 1716736259593,
-    "stop" : 1716736259816,
-    "duration" : 223
+    "start" : 1716737428178,
+    "stop" : 1716737428404,
+    "duration" : 226
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "1740aa6f46797e3",
+  "uid" : "ff6213275588555",
+  "name" : "test_customer_adduser[adduser_msg6]",
+  "time" : {
+    "start" : 1716737424494,
+    "stop" : 1716737424722,
+    "duration" : 228
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "248ff7c04ed4a032",
+  "name" : "test_customer_adduser[adduser_msg5]",
+  "time" : {
+    "start" : 1716737424258,
+    "stop" : 1716737424458,
+    "duration" : 200
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "96ad5132faa70973",
+  "name" : "test_customer_list[customer_list7]",
+  "time" : {
+    "start" : 1716737426645,
+    "stop" : 1716737426850,
+    "duration" : 205
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "826f31ba114d1e15",
+  "name" : "test_login[user_info2]",
+  "time" : {
+    "start" : 1716737427135,
+    "stop" : 1716737427277,
+    "duration" : 142
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "ac68026c8ed773b3",
+  "name" : "test_login[user_info0]",
+  "time" : {
+    "start" : 1716737426854,
+    "stop" : 1716737427053,
+    "duration" : 199
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "bb1905b713864cd2",
   "name" : "test_customer_list[customer_list0]",
   "time" : {
-    "start" : 1716736255584,
-    "stop" : 1716736255825,
-    "duration" : 241
+    "start" : 1716737424766,
+    "stop" : 1716737425028,
+    "duration" : 262
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "a66c55af6aef77e7",
+  "name" : "test_customer_list[customer_list3]",
+  "time" : {
+    "start" : 1716737425601,
+    "stop" : 1716737425833,
+    "duration" : 232
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "fd0b441b433232e8",
+  "name" : "test_wms_supplier[supp_msg2]",
+  "time" : {
+    "start" : 1716737427921,
+    "stop" : 1716737428137,
+    "duration" : 216
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "5768cfd5c5c44ca0",
+  "name" : "test_customer_adduser[adduser_msg1]",
+  "time" : {
+    "start" : 1716737423088,
+    "stop" : 1716737423315,
+    "duration" : 227
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c6d2f8aa87ad7c1a",
+  "name" : "test_wms_supplier[supp_msg1]",
+  "time" : {
+    "start" : 1716737427651,
+    "stop" : 1716737427866,
+    "duration" : 215
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "be132dfd44e4e75d",
+  "name" : "test_customer_list[customer_list2]",
+  "time" : {
+    "start" : 1716737425328,
+    "stop" : 1716737425564,
+    "duration" : 236
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "f17efff638e52f91",
+  "name" : "test_wms_supplier[supp_msg4]",
+  "time" : {
+    "start" : 1716737428445,
+    "stop" : 1716737428657,
+    "duration" : 212
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "5553fd9e7ba4fc52",
+  "name" : "test_customer_adduser[adduser_msg2]",
+  "time" : {
+    "start" : 1716737423379,
+    "stop" : 1716737423644,
+    "duration" : 265
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "9304fa97d2e3774f",
+  "name" : "test_wms_supplier[supp_msg5]",
+  "time" : {
+    "start" : 1716737428708,
+    "stop" : 1716737428927,
+    "duration" : 219
   },
   "status" : "passed",
   "severity" : "critical"

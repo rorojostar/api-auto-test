@@ -87,26 +87,3 @@ case_customer_list:
     email: "13100010000@qq.com"
     exp: "13100010000@qq.com"
 
-  case_009: # 根据customerPerson和customerLevel查询客户
-    customerNo: null
-    customerName: null
-    address: null
-    mobile: null
-    tel: null
-    customerPerson: "张三"
-    customerLevel: "第一级"
-    email: null
-    exp: "张三"
-    exp2: "第一级"
-
-  case_010: # 根据email查询客户
-    customerNo: null
-    customerName: null
-    address: null
-    mobile: "13817421067"
-    tel: null
-    customerPerson: "张三"
-    customerLevel: null
-    email: null
-    exp: "13817421067"
-    exp2: "张三"

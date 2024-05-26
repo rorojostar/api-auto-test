@@ -4,12 +4,12 @@
     "uid" : "1ddb4bc89958d5863990b6c13d211cc9",
     "name" : "wms仓管系统-查询用户接口",
     "statistic" : {
-      "failed" : 2,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 8,
       "unknown" : 0,
-      "total" : 10
+      "total" : 8
     }
   }, {
     "uid" : "78157b710d832c348a6ed0b9ad4bb635",

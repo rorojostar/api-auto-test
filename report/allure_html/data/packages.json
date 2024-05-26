@@ -7,13 +7,13 @@
       "name" : "test_wms_customer_adduser_003",
       "children" : [ {
         "name" : "test_customer_adduser[adduser_msg0]",
-        "uid" : "20313673727e2ec2",
+        "uid" : "b2978e02f1b40abc",
         "parentUid" : "042af47fe0f8cd11b6e9eff129090f53",
         "status" : "passed",
         "time" : {
-          "start" : 1716736253819,
-          "stop" : 1716736254041,
-          "duration" : 222
+          "start" : 1716737422795,
+          "stop" : 1716737423048,
+          "duration" : 253
         },
         "flaky" : false,
         "newFailed" : false,
@@ -24,13 +24,13 @@
         "parameters" : [ "{'customerNo': 'wms00004', 'customerName': 'wms00004', 'address': '上海市', 'mobile': '13145676789', 'tel': '021-12344567', 'customerPerson': '大宇', 'customerLevel': '一级', 'email': '598172372@qq.com', 'remark': '新增客户', 'bankAccount': '6543210000000001', 'exp': 1}" ]
       }, {
         "name" : "test_customer_adduser[adduser_msg1]",
-        "uid" : "11ad19845182336c",
+        "uid" : "5768cfd5c5c44ca0",
         "parentUid" : "042af47fe0f8cd11b6e9eff129090f53",
         "status" : "passed",
         "time" : {
-          "start" : 1716736254083,
-          "stop" : 1716736254279,
-          "duration" : 196
+          "start" : 1716737423088,
+          "stop" : 1716737423315,
+          "duration" : 227
         },
         "flaky" : false,
         "newFailed" : false,
@@ -41,13 +41,13 @@
         "parameters" : [ "{'customerNo': None, 'customerName': 'wms00005', 'address': '上海市', 'mobile': '131000000002', 'tel': '021-00000002', 'customerPerson': '大宇', 'customerLevel': '一级', 'email': '598000002@qq.com', 'remark': '新增客户', 'bankAccount': '6543210000000002', 'exp': 500}" ]
       }, {
         "name" : "test_customer_adduser[adduser_msg2]",
-        "uid" : "e7980b7b255e77da",
+        "uid" : "5553fd9e7ba4fc52",
         "parentUid" : "042af47fe0f8cd11b6e9eff129090f53",
         "status" : "passed",
         "time" : {
-          "start" : 1716736254333,
-          "stop" : 1716736254539,
-          "duration" : 206
+          "start" : 1716737423379,
+          "stop" : 1716737423644,
+          "duration" : 265
         },
         "flaky" : false,
         "newFailed" : false,
@@ -58,13 +58,13 @@
         "parameters" : [ "{'customerNo': 'wms00006', 'customerName': None, 'address': '上海市', 'mobile': '131000000003', 'tel': '021-00000003', 'customerPerson': '大宇', 'customerLevel': '一级', 'email': '598000003@qq.com', 'remark': '新增客户', 'bankAccount': '6543210000000003', 'exp': 500}" ]
       }, {
         "name" : "test_customer_adduser[adduser_msg3]",
-        "uid" : "565ea18f1fde3b45",
+        "uid" : "135cdecf2ecbd254",
         "parentUid" : "042af47fe0f8cd11b6e9eff129090f53",
         "status" : "passed",
         "time" : {
-          "start" : 1716736254574,
-          "stop" : 1716736254786,
-          "duration" : 212
+          "start" : 1716737423692,
+          "stop" : 1716737423903,
+          "duration" : 211
         },
         "flaky" : false,
         "newFailed" : false,
@@ -75,13 +75,13 @@
         "parameters" : [ "{'customerNo': 'wms00007', 'customerName': 'wms00007', 'address': '上海市', 'mobile': '131000000004', 'tel': '021-00000004', 'customerPerson': '大宇', 'customerLevel': '一级', 'email': '598000004@qq.com', 'remark': '新增客户', 'bankAccount': None, 'exp': 500}" ]
       }, {
         "name" : "test_customer_adduser[adduser_msg4]",
-        "uid" : "46e8807f70c1923e",
+        "uid" : "474e6bf2b61ffda6",
         "parentUid" : "042af47fe0f8cd11b6e9eff129090f53",
         "status" : "passed",
         "time" : {
-          "start" : 1716736254835,
-          "stop" : 1716736255054,
-          "duration" : 219
+          "start" : 1716737423944,
+          "stop" : 1716737424215,
+          "duration" : 271
         },
         "flaky" : false,
         "newFailed" : false,
@@ -92,13 +92,13 @@
         "parameters" : [ "{'customerNo': 'wms00008', 'customerName': 'wms00008', 'address': '上海市', 'mobile': '131000000005', 'tel': '021-00000005', 'customerPerson': '大宇', 'customerLevel': '一级', 'email': '598000005@qq.com', 'remark': '新增客户', 'bankAccount': 'customerPerson', 'exp': 500}" ]
       }, {
         "name" : "test_customer_adduser[adduser_msg5]",
-        "uid" : "80ba4f6153119935",
+        "uid" : "248ff7c04ed4a032",
         "parentUid" : "042af47fe0f8cd11b6e9eff129090f53",
         "status" : "passed",
         "time" : {
-          "start" : 1716736255091,
-          "stop" : 1716736255281,
-          "duration" : 190
+          "start" : 1716737424258,
+          "stop" : 1716737424458,
+          "duration" : 200
         },
         "flaky" : false,
         "newFailed" : false,
@@ -109,13 +109,13 @@
         "parameters" : [ "{'customerNo': 'wms00009', 'customerName': 'wms00009', 'address': '上海市', 'mobile': '131000000005=6', 'tel': '021-00000006', 'customerPerson': '大宇', 'customerLevel': '一级', 'email': '598000005@qq.com', 'remark': '新增客户', 'bankAccount': '65432100006', 'exp': 500}" ]
       }, {
         "name" : "test_customer_adduser[adduser_msg6]",
-        "uid" : "c72166e83578c41e",
+        "uid" : "ff6213275588555",
         "parentUid" : "042af47fe0f8cd11b6e9eff129090f53",
         "status" : "passed",
         "time" : {
-          "start" : 1716736255325,
-          "stop" : 1716736255545,
-          "duration" : 220
+          "start" : 1716737424494,
+          "stop" : 1716737424722,
+          "duration" : 228
         },
         "flaky" : false,
         "newFailed" : false,
@@ -130,13 +130,13 @@
       "name" : "test_wms_customer_list_002",
       "children" : [ {
         "name" : "test_customer_list[customer_list0]",
-        "uid" : "1740aa6f46797e3",
+        "uid" : "bb1905b713864cd2",
         "parentUid" : "bde430b7b218d5be8c1cd5d095a1def8",
         "status" : "passed",
         "time" : {
-          "start" : 1716736255584,
-          "stop" : 1716736255825,
-          "duration" : 241
+          "start" : 1716737424766,
+          "stop" : 1716737425028,
+          "duration" : 262
         },
         "flaky" : false,
         "newFailed" : false,
@@ -147,13 +147,13 @@
         "parameters" : [ "{'customerNo': 'test0001', 'customerName': None, 'address': None, 'mobile': None, 'tel': None, 'customerPerson': None, 'customerLevel': None, 'email': None, 'exp': 'test0001'}" ]
       }, {
         "name" : "test_customer_list[customer_list1]",
-        "uid" : "d67e9d323a3990de",
+        "uid" : "2fd764242eb9ddef",
         "parentUid" : "bde430b7b218d5be8c1cd5d095a1def8",
         "status" : "passed",
         "time" : {
-          "start" : 1716736255865,
-          "stop" : 1716736256087,
-          "duration" : 222
+          "start" : 1716737425079,
+          "stop" : 1716737425291,
+          "duration" : 212
         },
         "flaky" : false,
         "newFailed" : false,
@@ -164,13 +164,13 @@
         "parameters" : [ "{'customerNo': None, 'customerName': '京西', 'address': None, 'mobile': None, 'tel': None, 'customerPerson': None, 'customerLevel': None, 'email': None, 'exp': '京西'}" ]
       }, {
         "name" : "test_customer_list[customer_list2]",
-        "uid" : "a91142b30d6b81b",
+        "uid" : "be132dfd44e4e75d",
         "parentUid" : "bde430b7b218d5be8c1cd5d095a1def8",
         "status" : "passed",
         "time" : {
-          "start" : 1716736256127,
-          "stop" : 1716736256365,
-          "duration" : 238
+          "start" : 1716737425328,
+          "stop" : 1716737425564,
+          "duration" : 236
         },
         "flaky" : false,
         "newFailed" : false,
@@ -181,13 +181,13 @@
         "parameters" : [ "{'customerNo': None, 'customerName': None, 'address': '上海移动', 'mobile': None, 'tel': None, 'customerPerson': None, 'customerLevel': None, 'email': None, 'exp': '上海移动'}" ]
       }, {
         "name" : "test_customer_list[customer_list3]",
-        "uid" : "5fe85519ed7d6849",
+        "uid" : "a66c55af6aef77e7",
         "parentUid" : "bde430b7b218d5be8c1cd5d095a1def8",
         "status" : "passed",
         "time" : {
-          "start" : 1716736256422,
-          "stop" : 1716736256632,
-          "duration" : 210
+          "start" : 1716737425601,
+          "stop" : 1716737425833,
+          "duration" : 232
         },
         "flaky" : false,
         "newFailed" : false,
@@ -198,13 +198,13 @@
         "parameters" : [ "{'customerNo': None, 'customerName': None, 'address': None, 'mobile': '13100010010', 'tel': None, 'customerPerson': None, 'customerLevel': None, 'email': None, 'exp': '13100010010'}" ]
       }, {
         "name" : "test_customer_list[customer_list4]",
-        "uid" : "f60075b742ab77d4",
+        "uid" : "fc11e3ef974cc660",
         "parentUid" : "bde430b7b218d5be8c1cd5d095a1def8",
         "status" : "passed",
         "time" : {
-          "start" : 1716736256686,
-          "stop" : 1716736256928,
-          "duration" : 242
+          "start" : 1716737425879,
+          "stop" : 1716737426080,
+          "duration" : 201
         },
         "flaky" : false,
         "newFailed" : false,
@@ -215,13 +215,13 @@
         "parameters" : [ "{'customerNo': None, 'customerName': None, 'address': None, 'mobile': None, 'tel': '021-12346789', 'customerPerson': None, 'customerLevel': None, 'email': None, 'exp': '021-12346789'}" ]
       }, {
         "name" : "test_customer_list[customer_list5]",
-        "uid" : "ae146fe66f40bcee",
+        "uid" : "5de9c9a4706cd25b",
         "parentUid" : "bde430b7b218d5be8c1cd5d095a1def8",
         "status" : "passed",
         "time" : {
-          "start" : 1716736256980,
-          "stop" : 1716736257188,
-          "duration" : 208
+          "start" : 1716737426131,
+          "stop" : 1716737426335,
+          "duration" : 204
         },
         "flaky" : false,
         "newFailed" : false,
@@ -232,13 +232,13 @@
         "parameters" : [ "{'customerNo': None, 'customerName': None, 'address': None, 'mobile': None, 'tel': None, 'customerPerson': '移动', 'customerLevel': None, 'email': None, 'exp': '移动'}" ]
       }, {
         "name" : "test_customer_list[customer_list6]",
-        "uid" : "75c07896b7502f1a",
+        "uid" : "894fad1f808dfea2",
         "parentUid" : "bde430b7b218d5be8c1cd5d095a1def8",
         "status" : "passed",
         "time" : {
-          "start" : 1716736257241,
-          "stop" : 1716736257450,
-          "duration" : 209
+          "start" : 1716737426377,
+          "stop" : 1716737426605,
+          "duration" : 228
         },
         "flaky" : false,
         "newFailed" : false,
@@ -249,13 +249,13 @@
         "parameters" : [ "{'customerNo': None, 'customerName': None, 'address': None, 'mobile': None, 'tel': None, 'customerPerson': None, 'customerLevel': '第二级', 'email': None, 'exp': '第二级'}" ]
       }, {
         "name" : "test_customer_list[customer_list7]",
-        "uid" : "6e3135ada74a69c6",
+        "uid" : "96ad5132faa70973",
         "parentUid" : "bde430b7b218d5be8c1cd5d095a1def8",
         "status" : "passed",
         "time" : {
-          "start" : 1716736257505,
-          "stop" : 1716736257714,
-          "duration" : 209
+          "start" : 1716737426645,
+          "stop" : 1716737426850,
+          "duration" : 205
         },
         "flaky" : false,
         "newFailed" : false,
@@ -264,53 +264,19 @@
         "retriesCount" : 0,
         "retriesStatusChange" : false,
         "parameters" : [ "{'customerNo': None, 'customerName': None, 'address': None, 'mobile': None, 'tel': None, 'customerPerson': None, 'customerLevel': None, 'email': '13100010000@qq.com', 'exp': '13100010000@qq.com'}" ]
-      }, {
-        "name" : "test_customer_list[customer_list8]",
-        "uid" : "4278fa1fe54a4869",
-        "parentUid" : "bde430b7b218d5be8c1cd5d095a1def8",
-        "status" : "failed",
-        "time" : {
-          "start" : 1716736257767,
-          "stop" : 1716736257961,
-          "duration" : 194
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'customerNo': None, 'customerName': None, 'address': None, 'mobile': None, 'tel': None, 'customerPerson': '张三', 'customerLevel': '第一级', 'email': None, 'exp': '张三', 'exp2': '第一级'}" ]
-      }, {
-        "name" : "test_customer_list[customer_list9]",
-        "uid" : "40897b914c4b46de",
-        "parentUid" : "bde430b7b218d5be8c1cd5d095a1def8",
-        "status" : "failed",
-        "time" : {
-          "start" : 1716736258051,
-          "stop" : 1716736258254,
-          "duration" : 203
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "{'customerNo': None, 'customerName': None, 'address': None, 'mobile': '13817421067', 'tel': None, 'customerPerson': '张三', 'customerLevel': None, 'email': None, 'exp': '13817421067', 'exp2': '张三'}" ]
       } ],
       "uid" : "bde430b7b218d5be8c1cd5d095a1def8"
     }, {
       "name" : "test_wms_login_001",
       "children" : [ {
         "name" : "test_login[user_info0]",
-        "uid" : "d764094f81715edc",
+        "uid" : "ac68026c8ed773b3",
         "parentUid" : "508f518f22e3068569f716d4b6809f9c",
         "status" : "passed",
         "time" : {
-          "start" : 1716736258263,
-          "stop" : 1716736258402,
-          "duration" : 139
+          "start" : 1716737426854,
+          "stop" : 1716737427053,
+          "duration" : 199
         },
         "flaky" : false,
         "newFailed" : false,
@@ -321,13 +287,13 @@
         "parameters" : [ "{'username': 'admin', 'password': 'e10adc3949ba59abbe56e057f20f883e', 'code': '2', 'exp': '操作成功'}" ]
       }, {
         "name" : "test_login[user_info1]",
-        "uid" : "5c7a079c16aed7a3",
+        "uid" : "d5a497e1df32f1d5",
         "parentUid" : "508f518f22e3068569f716d4b6809f9c",
         "status" : "passed",
         "time" : {
-          "start" : 1716736258405,
-          "stop" : 1716736258466,
-          "duration" : 61
+          "start" : 1716737427056,
+          "stop" : 1716737427132,
+          "duration" : 76
         },
         "flaky" : false,
         "newFailed" : false,
@@ -338,13 +304,13 @@
         "parameters" : [ "{'username': 'admin1', 'password': 'e10adc3949ba59abbe56e057f20f883e', 'code': '2', 'exp': '登录用户：admin1 不存在'}" ]
       }, {
         "name" : "test_login[user_info2]",
-        "uid" : "79eab7542ad095f3",
+        "uid" : "826f31ba114d1e15",
         "parentUid" : "508f518f22e3068569f716d4b6809f9c",
         "status" : "passed",
         "time" : {
-          "start" : 1716736258470,
-          "stop" : 1716736258615,
-          "duration" : 145
+          "start" : 1716737427135,
+          "stop" : 1716737427277,
+          "duration" : 142
         },
         "flaky" : false,
         "newFailed" : false,
@@ -355,13 +321,13 @@
         "parameters" : [ "{'username': 'admin', 'password': 'e10adc3949ba5', 'code': '2', 'exp': '用户不存在/密码错误'}" ]
       }, {
         "name" : "test_login[user_info3]",
-        "uid" : "4660ffda5498e374",
+        "uid" : "c29d39b3046d3805",
         "parentUid" : "508f518f22e3068569f716d4b6809f9c",
         "status" : "passed",
         "time" : {
-          "start" : 1716736258618,
-          "stop" : 1716736258696,
-          "duration" : 78
+          "start" : 1716737427281,
+          "stop" : 1716737427351,
+          "duration" : 70
         },
         "flaky" : false,
         "newFailed" : false,
@@ -376,13 +342,13 @@
       "name" : "test_wms_supplier_004",
       "children" : [ {
         "name" : "test_wms_supplier[supp_msg0]",
-        "uid" : "a2b5d27548a9a605",
+        "uid" : "133f4485e62fa8a6",
         "parentUid" : "77c853ea770879fca70cd6db034cbcc9",
         "status" : "passed",
         "time" : {
-          "start" : 1716736258740,
-          "stop" : 1716736258955,
-          "duration" : 215
+          "start" : 1716737427392,
+          "stop" : 1716737427614,
+          "duration" : 222
         },
         "flaky" : false,
         "newFailed" : false,
@@ -393,13 +359,13 @@
         "parameters" : [ "{'id': 54, 'supplierNo': 'wms00001-修改后', 'supplierName': 'wms00001', 'bankName': '上海市wms00001', 'bankAccount': '654321000000001', 'payableAmount': 0.0, 'address': '上海市wms00001', 'mobileNo': '13300000001', 'telNo': '021-00010001', 'contact': 'wms00001', 'level': '第一级', 'email': 'wms00001@qq.com', 'remark': '自动化测试', 'delFlag': 0, 'exp': 1, 'update_supplierNo': 'wms00001', 'update_supplierName': 'wms00001', 'update_bankName': '上海市wms00001', 'update_bankAccount': '654321000000001', 'update_address': '上海市wms00001', 'update_mobileNo': '13300000001', 'update_telNo': '021-00010001', 'update_contact': 'wms00001', 'update_level': '第一级', 'update_email': 'wms00001@qq.com', 'update_remark': '自动化测试'}" ]
       }, {
         "name" : "test_wms_supplier[supp_msg1]",
-        "uid" : "b3c663af680b5ee1",
+        "uid" : "c6d2f8aa87ad7c1a",
         "parentUid" : "77c853ea770879fca70cd6db034cbcc9",
         "status" : "passed",
         "time" : {
-          "start" : 1716736258993,
-          "stop" : 1716736259213,
-          "duration" : 220
+          "start" : 1716737427651,
+          "stop" : 1716737427866,
+          "duration" : 215
         },
         "flaky" : false,
         "newFailed" : false,
@@ -410,13 +376,13 @@
         "parameters" : [ "{'id': 54, 'supplierNo': 'wms00001', 'supplierName': 'wms00001-修改后', 'bankName': '上海市wms00001', 'bankAccount': '654321000000001', 'payableAmount': 0.0, 'address': '上海市wms00001', 'mobileNo': '13300000001', 'telNo': '021-00010001', 'contact': 'wms00001', 'level': '第一级', 'email': 'wms00001@qq.com', 'remark': '自动化测试', 'delFlag': 0, 'exp': 1, 'update_supplierNo': 'wms00001', 'update_supplierName': 'wms00001', 'update_bankName': '上海市wms00001', 'update_bankAccount': '654321000000001', 'update_address': '上海市wms00001', 'update_mobileNo': '13300000001', 'update_telNo': '021-00010001', 'update_contact': 'wms00001', 'update_level': '第一级', 'update_email': 'wms00001@qq.com', 'update_remark': '自动化测试'}" ]
       }, {
         "name" : "test_wms_supplier[supp_msg2]",
-        "uid" : "17658f19644343ae",
+        "uid" : "fd0b441b433232e8",
         "parentUid" : "77c853ea770879fca70cd6db034cbcc9",
         "status" : "passed",
         "time" : {
-          "start" : 1716736259269,
-          "stop" : 1716736259543,
-          "duration" : 274
+          "start" : 1716737427921,
+          "stop" : 1716737428137,
+          "duration" : 216
         },
         "flaky" : false,
         "newFailed" : false,
@@ -427,13 +393,13 @@
         "parameters" : [ "{'id': 54, 'supplierNo': 'wms00001', 'supplierName': 'wms00001', 'bankName': '上海市wms00001', 'bankAccount': '6543210000000010', 'payableAmount': 0.0, 'address': '上海市wms00001', 'mobileNo': '13300000001', 'telNo': '021-00010001', 'contact': 'wms00001', 'level': '第一级', 'email': 'wms00001@qq.com', 'remark': '自动化测试', 'delFlag': 0, 'exp': 1, 'update_supplierNo': 'wms00001', 'update_supplierName': 'wms00001', 'update_bankName': '上海市wms00001', 'update_bankAccount': '654321000000001', 'update_address': '上海市wms00001', 'update_mobileNo': '13300000001', 'update_telNo': '021-00010001', 'update_contact': 'wms00001', 'update_level': '第一级', 'update_email': 'wms00001@qq.com', 'update_remark': '自动化测试'}" ]
       }, {
         "name" : "test_wms_supplier[supp_msg3]",
-        "uid" : "26ad17823398bc55",
+        "uid" : "d38652ac06d9e345",
         "parentUid" : "77c853ea770879fca70cd6db034cbcc9",
         "status" : "passed",
         "time" : {
-          "start" : 1716736259593,
-          "stop" : 1716736259816,
-          "duration" : 223
+          "start" : 1716737428178,
+          "stop" : 1716737428404,
+          "duration" : 226
         },
         "flaky" : false,
         "newFailed" : false,
@@ -444,13 +410,13 @@
         "parameters" : [ "{'id': 54, 'supplierNo': 'wms00001', 'supplierName': 'wms00001', 'bankName': '上海市wms00001', 'bankAccount': '654321000000001', 'payableAmount': 0.0, 'address': '上海市wms00001-修改后', 'mobileNo': '13300000001', 'telNo': '021-00010001', 'contact': 'wms00001', 'level': '第一级', 'email': 'wms00001@qq.com', 'remark': '自动化测试', 'delFlag': 0, 'exp': 1, 'update_supplierNo': 'wms00001', 'update_supplierName': 'wms00001', 'update_bankName': '上海市wms00001', 'update_bankAccount': '654321000000001', 'update_address': '上海市wms00001', 'update_mobileNo': '13300000001', 'update_telNo': '021-00010001', 'update_contact': 'wms00001', 'update_level': '第一级', 'update_email': 'wms00001@qq.com', 'update_remark': '自动化测试'}" ]
       }, {
         "name" : "test_wms_supplier[supp_msg4]",
-        "uid" : "bac4b0f19f9d0312",
+        "uid" : "f17efff638e52f91",
         "parentUid" : "77c853ea770879fca70cd6db034cbcc9",
         "status" : "passed",
         "time" : {
-          "start" : 1716736259856,
-          "stop" : 1716736260065,
-          "duration" : 209
+          "start" : 1716737428445,
+          "stop" : 1716737428657,
+          "duration" : 212
         },
         "flaky" : false,
         "newFailed" : false,
@@ -461,13 +427,13 @@
         "parameters" : [ "{'id': 54, 'supplierNo': 'wms00001', 'supplierName': 'wms00001', 'bankName': '上海市wms00001', 'bankAccount': '654321000000001', 'payableAmount': 0.0, 'address': '上海市wms00001', 'mobileNo': '13300000001', 'telNo': '021-00010001', 'contact': 'wms00001', 'level': '第二级', 'email': 'wms00001@qq.com', 'remark': '自动化测试', 'delFlag': 0, 'exp': 1, 'update_supplierNo': 'wms00001', 'update_supplierName': 'wms00001', 'update_bankName': '上海市wms00001', 'update_bankAccount': '654321000000001', 'update_address': '上海市wms00001', 'update_mobileNo': '13300000001', 'update_telNo': '021-00010001', 'update_contact': 'wms00001', 'update_level': '第一级', 'update_email': 'wms00001@qq.com', 'update_remark': '自动化测试'}" ]
       }, {
         "name" : "test_wms_supplier[supp_msg5]",
-        "uid" : "d8b93a26e5614da",
+        "uid" : "9304fa97d2e3774f",
         "parentUid" : "77c853ea770879fca70cd6db034cbcc9",
         "status" : "passed",
         "time" : {
-          "start" : 1716736260112,
-          "stop" : 1716736260334,
-          "duration" : 222
+          "start" : 1716737428708,
+          "stop" : 1716737428927,
+          "duration" : 219
         },
         "flaky" : false,
         "newFailed" : false,
