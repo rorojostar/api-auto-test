@@ -1,0 +1,7 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:232 Starting new HTTP connection (1): 60.204.225.104:9632
+DEBUG    urllib3.connectionpool:connectionpool.py:465 http://60.204.225.104:9632 "GET /captchaImage HTTP/1.1" 200 None
+DEBUG    urllib3.connectionpool:connectionpool.py:232 Starting new HTTP connection (1): 60.204.225.104:9632
+DEBUG    urllib3.connectionpool:connectionpool.py:465 http://60.204.225.104:9632 "POST /login HTTP/1.1" 200 None
+DEBUG    urllib3.connectionpool:connectionpool.py:232 Starting new HTTP connection (1): 60.204.225.104:9632
+DEBUG    urllib3.connectionpool:connectionpool.py:465 http://60.204.225.104:9632 "POST /wms/customer/list?page=0&size=10 HTTP/1.1" 200 None
+INFO     root:test_wms_customer_list_002.py:82 接口响应符合预期，用例执行成功，请求参数是：{'content': [{'createBy': 1, 'createTime': '2024-05-14 22:10:47', 'updateBy': 1, 'updateTime': '2024-05-16 00:06:38', 'id': 57, 'customerNo': 'wms00003', 'customerName': '上海电信', 'bankName': '上海电信银行', 'bankAccount': '62212300000000103', 'receivableAmount': None, 'address': '上海电信', 'mobile': '13100010000', 'tel': '021-00003333', 'customerPerson': '电信', 'customerLevel': '第一级', 'email': '13100010000@qq.com', 'remark': None, 'delFlag': 0}], 'pageable': {'sort': {'sorted': False, 'unsorted': True, 'empty': True}, 'pageSize': 10, 'pageNumber': 0, 'offset': 0, 'paged': True, 'unpaged': False}, 'totalElements': 1, 'totalPages': 1, 'last': True, 'first': True, 'sort': {'sorted': False, 'unsorted': True, 'empty': True}, 'numberOfElements': 1, 'size': 10, 'number': 0, 'empty': False}

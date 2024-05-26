@@ -31,6 +31,8 @@ ERROR_FILE = os.path.join(LOGER_DIR, "error_logs")
 REPORT_DIR = os.path.join(BASE_DIR, "report")
 REPORT_JSON = os.path.join(REPORT_DIR, "allure_json")
 REPORT_HTML = os.path.join(REPORT_DIR, "allure_html")
+print(REPORT_JSON)
+print(REPORT_HTML)
 
 # 封装case存放路径
 CASES_FILE = os.path.join(BASE_DIR, "testcase")

@@ -7,13 +7,13 @@
       "name" : "AssertionError: assert 3 == 1",
       "children" : [ {
         "name" : "test_customer_list[customer_list8]",
-        "uid" : "7ed5348094dfbb55",
+        "uid" : "abdfbb3dff6e63b6",
         "parentUid" : "d77bdf257e9157e49d7642deaa3c8808",
         "status" : "failed",
         "time" : {
-          "start" : 1716024420071,
-          "stop" : 1716024420285,
-          "duration" : 214
+          "start" : 1716733564320,
+          "stop" : 1716733564537,
+          "duration" : 217
         },
         "flaky" : false,
         "newFailed" : false,
@@ -28,13 +28,13 @@
       "name" : "AssertionError: assert 2 == 1",
       "children" : [ {
         "name" : "test_customer_list[customer_list9]",
-        "uid" : "c7a04ea4e78f6e00",
+        "uid" : "ecce39ab44ce8203",
         "parentUid" : "20b3ab6bb3644f149f5fba207dddc2af",
         "status" : "failed",
         "time" : {
-          "start" : 1716024420378,
-          "stop" : 1716024420573,
-          "duration" : 195
+          "start" : 1716733564624,
+          "stop" : 1716733564831,
+          "duration" : 207
         },
         "flaky" : false,
         "newFailed" : false,
