@@ -10,11 +10,11 @@ import allure
 import pytest
 import requests
 
-from utils.db_utils import DBUtils
-from utils.logs_utils import logger
-from utils.path_utils import yaml_file
-from utils.token_utils import get_wms_token
-from utils.yaml_utils import YamlUtils
+from wms_python_yaml.utils.db_utils import DBUtils
+from wms_python_yaml.utils.logs_utils import logger
+from wms_python_yaml.utils.path_utils import yaml_file
+from wms_python_yaml.utils.token_utils import get_wms_token
+from wms_python_yaml.utils.yaml_utils import YamlUtils
 
 
 @allure.feature("wms仓管系统-新增客户接口")
