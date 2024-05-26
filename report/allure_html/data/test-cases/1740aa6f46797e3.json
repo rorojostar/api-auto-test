@@ -1,0 +1,118 @@
+{
+  "uid" : "1740aa6f46797e3",
+  "name" : "test_customer_list[customer_list0]",
+  "fullName" : "testcase.test_wms_customer_list_002.TestCustomer#test_customer_list",
+  "historyId" : "8792932d0218c0b32eb21ea9beaf301c",
+  "time" : {
+    "start" : 1716736255584,
+    "stop" : 1716736255825,
+    "duration" : 241
+  },
+  "description" : "接口测试用例",
+  "descriptionHtml" : "<p>接口测试用例</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "conn_db",
+    "time" : {
+      "start" : 1716736255548,
+      "stop" : 1716736255584,
+      "duration" : 36
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "接口测试用例",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "bad8e6448eaab13a",
+      "name" : "log",
+      "source" : "bad8e6448eaab13a.txt",
+      "type" : "text/plain",
+      "size" : 984
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "conn_db::0",
+    "time" : {
+      "start" : 1716736255826,
+      "stop" : 1716736255826,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "Critical"
+  }, {
+    "name" : "feature",
+    "value" : "wms仓管系统-查询用户接口"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_wms_customer_list_002"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCustomer"
+  }, {
+    "name" : "host",
+    "value" : "MS-ZTCNWBTJJGHS"
+  }, {
+    "name" : "thread",
+    "value" : "3908-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_wms_customer_list_002"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "customer_list",
+    "value" : "{'customerNo': 'test0001', 'customerName': None, 'address': None, 'mobile': None, 'tel': None, 'customerPerson': None, 'customerLevel': None, 'email': None, 'exp': 'test0001'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1740aa6f46797e3.json",
+  "parameterValues" : [ "{'customerNo': 'test0001', 'customerName': None, 'address': None, 'mobile': None, 'tel': None, 'customerPerson': None, 'customerLevel': None, 'email': None, 'exp': 'test0001'}" ]
+}

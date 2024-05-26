@@ -1,0 +1,118 @@
+{
+  "uid" : "26ad17823398bc55",
+  "name" : "test_wms_supplier[supp_msg3]",
+  "fullName" : "testcase.test_wms_supplier_004.TestSupplier#test_wms_supplier",
+  "historyId" : "190f8f58d6ea2cd6de357c1c51eae4e2",
+  "time" : {
+    "start" : 1716736259593,
+    "stop" : 1716736259816,
+    "duration" : 223
+  },
+  "description" : "修改供应商信息接口的测试用例",
+  "descriptionHtml" : "<p>修改供应商信息接口的测试用例</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "conn_db",
+    "time" : {
+      "start" : 1716736259546,
+      "stop" : 1716736259593,
+      "duration" : 47
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "修改供应商信息接口的测试用例",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7ae50d2934e5450f",
+      "name" : "log",
+      "source" : "7ae50d2934e5450f.txt",
+      "type" : "text/plain",
+      "size" : 1540
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "conn_db::0",
+    "time" : {
+      "start" : 1716736259817,
+      "stop" : 1716736259817,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "Critical"
+  }, {
+    "name" : "feature",
+    "value" : "wms仓管系统-修改供应商信息接口"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_wms_supplier_004"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSupplier"
+  }, {
+    "name" : "host",
+    "value" : "MS-ZTCNWBTJJGHS"
+  }, {
+    "name" : "thread",
+    "value" : "3908-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_wms_supplier_004"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "supp_msg",
+    "value" : "{'id': 54, 'supplierNo': 'wms00001', 'supplierName': 'wms00001', 'bankName': '上海市wms00001', 'bankAccount': '654321000000001', 'payableAmount': 0.0, 'address': '上海市wms00001-修改后', 'mobileNo': '13300000001', 'telNo': '021-00010001', 'contact': 'wms00001', 'level': '第一级', 'email': 'wms00001@qq.com', 'remark': '自动化测试', 'delFlag': 0, 'exp': 1, 'update_supplierNo': 'wms00001', 'update_supplierName': 'wms00001', 'update_bankName': '上海市wms00001', 'update_bankAccount': '654321000000001', 'update_address': '上海市wms00001', 'update_mobileNo': '13300000001', 'update_telNo': '021-00010001', 'update_contact': 'wms00001', 'update_level': '第一级', 'update_email': 'wms00001@qq.com', 'update_remark': '自动化测试'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "26ad17823398bc55.json",
+  "parameterValues" : [ "{'id': 54, 'supplierNo': 'wms00001', 'supplierName': 'wms00001', 'bankName': '上海市wms00001', 'bankAccount': '654321000000001', 'payableAmount': 0.0, 'address': '上海市wms00001-修改后', 'mobileNo': '13300000001', 'telNo': '021-00010001', 'contact': 'wms00001', 'level': '第一级', 'email': 'wms00001@qq.com', 'remark': '自动化测试', 'delFlag': 0, 'exp': 1, 'update_supplierNo': 'wms00001', 'update_supplierName': 'wms00001', 'update_bankName': '上海市wms00001', 'update_bankAccount': '654321000000001', 'update_address': '上海市wms00001', 'update_mobileNo': '13300000001', 'update_telNo': '021-00010001', 'update_contact': 'wms00001', 'update_level': '第一级', 'update_email': 'wms00001@qq.com', 'update_remark': '自动化测试'}" ]
+}

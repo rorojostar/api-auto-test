@@ -1,0 +1,126 @@
+{
+  "uid" : "40897b914c4b46de",
+  "name" : "test_customer_list[customer_list9]",
+  "fullName" : "testcase.test_wms_customer_list_002.TestCustomer#test_customer_list",
+  "historyId" : "30233349f8baaf85fb3079fc1f601577",
+  "time" : {
+    "start" : 1716736258051,
+    "stop" : 1716736258254,
+    "duration" : 203
+  },
+  "description" : "接口测试用例",
+  "descriptionHtml" : "<p>接口测试用例</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 2 == 1",
+  "statusTrace" : "self = <wms_python_yaml.testcase.test_wms_customer_list_002.TestCustomer object at 0x0000028F6BA6D9E8>\ncustomer_list = {'address': None, 'customerLevel': None, 'customerName': None, 'customerNo': None, ...}\n\n    @allure.description(\"接口测试用例\")\n    @allure.severity(\"Critical\")\n    @pytest.mark.parametrize(\"customer_list\",\n                             YamlUtils.read_yaml(yaml_file(\"test_customer_list.yaml\"), \"case_customer_list\"))\n    def test_customer_list(self, customer_list):\n        response = requests.post(url=\"http://60.204.225.104:9632/wms/customer/list?page=0&size=10\",\n                                 json={\"customerNo\": customer_list[\"customerNo\"],\n                                       \"customerName\": customer_list[\"customerName\"],\n                                       \"address\": customer_list[\"address\"],\n                                       \"mobile\": customer_list[\"mobile\"],\n                                       \"tel\": customer_list[\"tel\"],\n                                       \"customerPerson\": customer_list[\"customerPerson\"],\n                                       \"customerLevel\": customer_list[\"customerLevel\"],\n                                       \"email\": customer_list[\"email\"]},\n                                 headers={\"Authorization\": get_wms_token()})\n        res = response.json()\n        print(res)\n        if res[\"content\"][0][\"customerNo\"] == customer_list[\"exp\"]:\n            count = self.db.find_count(\"SELECT * FROM wms_customer WHERE customer_no = %s\", (customer_list[\"exp\"],))\n            assert count == 1\n            logger.info(\"接口响应符合预期，用例执行成功，请求参数是：%s\", customer_list)\n        elif res[\"content\"][0][\"customerName\"] == customer_list[\"exp\"]:\n            count = self.db.find_count(\"SELECT * FROM wms_customer WHERE customer_name = %s\", (customer_list[\"exp\"],))\n            assert count == 1\n            logger.info(\"接口响应符合预期，用例执行成功，请求参数是：%s\", customer_list)\n    \n        elif res[\"content\"][0][\"address\"] == customer_list[\"exp\"]:\n            count = self.db.find_count(\"SELECT * FROM wms_customer WHERE address = %s\", (customer_list[\"exp\"],))\n            assert count == 1\n            logger.info(\"接口响应符合预期，用例执行成功，请求参数是：%s\", customer_list)\n    \n        elif res[\"content\"][0][\"mobile\"] == customer_list[\"exp\"]:\n            count = self.db.find_count(\"SELECT * FROM wms_customer WHERE mobile = %s\", (customer_list[\"exp\"],))\n>           assert count == 1\nE           assert 2 == 1\n\ntestcase\\test_wms_customer_list_002.py:61: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "conn_db",
+    "time" : {
+      "start" : 1716736258011,
+      "stop" : 1716736258050,
+      "duration" : 39
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "接口测试用例",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 2 == 1",
+    "statusTrace" : "self = <wms_python_yaml.testcase.test_wms_customer_list_002.TestCustomer object at 0x0000028F6BA6D9E8>\ncustomer_list = {'address': None, 'customerLevel': None, 'customerName': None, 'customerNo': None, ...}\n\n    @allure.description(\"接口测试用例\")\n    @allure.severity(\"Critical\")\n    @pytest.mark.parametrize(\"customer_list\",\n                             YamlUtils.read_yaml(yaml_file(\"test_customer_list.yaml\"), \"case_customer_list\"))\n    def test_customer_list(self, customer_list):\n        response = requests.post(url=\"http://60.204.225.104:9632/wms/customer/list?page=0&size=10\",\n                                 json={\"customerNo\": customer_list[\"customerNo\"],\n                                       \"customerName\": customer_list[\"customerName\"],\n                                       \"address\": customer_list[\"address\"],\n                                       \"mobile\": customer_list[\"mobile\"],\n                                       \"tel\": customer_list[\"tel\"],\n                                       \"customerPerson\": customer_list[\"customerPerson\"],\n                                       \"customerLevel\": customer_list[\"customerLevel\"],\n                                       \"email\": customer_list[\"email\"]},\n                                 headers={\"Authorization\": get_wms_token()})\n        res = response.json()\n        print(res)\n        if res[\"content\"][0][\"customerNo\"] == customer_list[\"exp\"]:\n            count = self.db.find_count(\"SELECT * FROM wms_customer WHERE customer_no = %s\", (customer_list[\"exp\"],))\n            assert count == 1\n            logger.info(\"接口响应符合预期，用例执行成功，请求参数是：%s\", customer_list)\n        elif res[\"content\"][0][\"customerName\"] == customer_list[\"exp\"]:\n            count = self.db.find_count(\"SELECT * FROM wms_customer WHERE customer_name = %s\", (customer_list[\"exp\"],))\n            assert count == 1\n            logger.info(\"接口响应符合预期，用例执行成功，请求参数是：%s\", customer_list)\n    \n        elif res[\"content\"][0][\"address\"] == customer_list[\"exp\"]:\n            count = self.db.find_count(\"SELECT * FROM wms_customer WHERE address = %s\", (customer_list[\"exp\"],))\n            assert count == 1\n            logger.info(\"接口响应符合预期，用例执行成功，请求参数是：%s\", customer_list)\n    \n        elif res[\"content\"][0][\"mobile\"] == customer_list[\"exp\"]:\n            count = self.db.find_count(\"SELECT * FROM wms_customer WHERE mobile = %s\", (customer_list[\"exp\"],))\n>           assert count == 1\nE           assert 2 == 1\n\ntestcase\\test_wms_customer_list_002.py:61: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "91a91b6ad265d4ca",
+      "name" : "log",
+      "source" : "91a91b6ad265d4ca.txt",
+      "type" : "text/plain",
+      "size" : 695
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "conn_db::0",
+    "time" : {
+      "start" : 1716736258260,
+      "stop" : 1716736258260,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "Critical"
+  }, {
+    "name" : "feature",
+    "value" : "wms仓管系统-查询用户接口"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_wms_customer_list_002"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCustomer"
+  }, {
+    "name" : "host",
+    "value" : "MS-ZTCNWBTJJGHS"
+  }, {
+    "name" : "thread",
+    "value" : "3908-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_wms_customer_list_002"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "customer_list",
+    "value" : "{'customerNo': None, 'customerName': None, 'address': None, 'mobile': '13817421067', 'tel': None, 'customerPerson': '张三', 'customerLevel': None, 'email': None, 'exp': '13817421067', 'exp2': '张三'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "40897b914c4b46de.json",
+  "parameterValues" : [ "{'customerNo': None, 'customerName': None, 'address': None, 'mobile': '13817421067', 'tel': None, 'customerPerson': '张三', 'customerLevel': None, 'email': None, 'exp': '13817421067', 'exp2': '张三'}" ]
+}

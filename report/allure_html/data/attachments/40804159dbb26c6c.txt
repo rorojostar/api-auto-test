@@ -1,0 +1,5 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:232 Starting new HTTP connection (1): 60.204.225.104:80
+DEBUG    urllib3.connectionpool:connectionpool.py:465 http://60.204.225.104:80 "GET /api/captchaImage HTTP/1.1" 200 None
+DEBUG    urllib3.connectionpool:connectionpool.py:232 Starting new HTTP connection (1): 60.204.225.104:80
+DEBUG    urllib3.connectionpool:connectionpool.py:465 http://60.204.225.104:80 "POST /api/login HTTP/1.1" 200 None
+INFO     root:test_wms_login_001.py:42 接口响应符合预期，用例执行成功，请求参数是：{'username': 'admin', 'password': 'e10adc3949ba5', 'code': '2', 'uuid': '46c8fbb2f2194e5d932cf33d01b6bcce'}
