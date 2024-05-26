@@ -10,7 +10,7 @@
 
 import os
 import pytest
-from utils.path_utils import REPORT_JSON, REPORT_HTML, CASES_FILE
+from wms_python_yaml.utils.path_utils import REPORT_JSON, REPORT_HTML, CASES_FILE
 
 
 if __name__ == '__main__':

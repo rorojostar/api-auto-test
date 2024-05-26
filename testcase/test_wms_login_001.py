@@ -9,7 +9,6 @@
 import allure
 import pytest
 import requests
-
 from wms_python_yaml.utils.logs_utils import logger
 from wms_python_yaml.utils.path_utils import yaml_file
 from wms_python_yaml.utils.yaml_utils import YamlUtils
