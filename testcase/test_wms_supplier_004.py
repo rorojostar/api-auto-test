@@ -10,11 +10,11 @@ import allure
 import pytest
 import requests
 
-from wms_python_yaml.utils.db_utils import DBUtils
-from wms_python_yaml.utils.logs_utils import logger
-from wms_python_yaml.utils.path_utils import yaml_file
-from wms_python_yaml.utils.token_utils import get_wms_token
-from wms_python_yaml.utils.yaml_utils import YamlUtils
+from utils.db_utils import DBUtils
+from utils.logs_utils import logger
+from utils.path_utils import yaml_file
+from utils.token_utils import get_wms_token
+from utils.yaml_utils import YamlUtils
 
 
 @allure.feature("wms仓管系统-修改供应商信息接口")
@@ -29,7 +29,7 @@ class TestSupplier:
     @allure.severity("Critical")
     @allure.description("修改供应商信息接口的测试用例")
     @pytest.mark.parametrize("supp_msg", YamlUtils.read_yaml(yaml_file("test_supplier.yaml"), "test_supplier"))
-    def test_wms_supplier(self, supp_msg):
+    def test_wms_supplier(self, supp_msg,get_token_fixture):
         response = requests.put(
             url="http://60.204.225.104:9632/wms/supplier",
             json={"id": supp_msg['id'],
@@ -46,7 +46,7 @@ class TestSupplier:
                   "email": supp_msg['email'],
                   "remark": supp_msg['remark'],
                   "delFlag": supp_msg['delFlag']},
-            headers={"Authorization": get_wms_token()})
+            headers={"Authorization": get_token_fixture})
         res = response.json()
         print(res)
         try:

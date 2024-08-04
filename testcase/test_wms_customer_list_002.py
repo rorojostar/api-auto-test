@@ -29,7 +29,7 @@ class TestCustomer:
     @allure.severity("Critical")
     @pytest.mark.parametrize("customer_list",
                              YamlUtils.read_yaml(yaml_file("test_customer_list.yaml"), "case_customer_list"))
-    def test_customer_list(self, customer_list):
+    def test_customer_list(self, customer_list,get_token_fixture):
         response = requests.post(url="http://60.204.225.104:9632/wms/customer/list?page=0&size=10",
                                  json={"customerNo": customer_list["customerNo"],
                                        "customerName": customer_list["customerName"],
@@ -39,7 +39,8 @@ class TestCustomer:
                                        "customerPerson": customer_list["customerPerson"],
                                        "customerLevel": customer_list["customerLevel"],
                                        "email": customer_list["email"]},
-                                 headers={"Authorization": get_wms_token()})
+                                 headers={"Authorization": get_token_fixture})
+        print('======================================test_customer_list'+get_token_fixture)
         res = response.json()
         print(res)
         if res["content"][0]["customerNo"] == customer_list["exp"]:

@@ -30,7 +30,7 @@ class TestAdduser:
     @allure.severity("Critical")
     @pytest.mark.parametrize("adduser_msg",
                              YamlUtils.read_yaml(yaml_file("test_customer_adduser.yaml"), "case_customer_adduser"))
-    def test_customer_adduser(self, adduser_msg):
+    def test_customer_adduser(self, adduser_msg,get_token_fixture):
         response = requests.post(url="http://60.204.225.104:9632/wms/customer",
                                  json={"customerNo": adduser_msg["customerNo"],
                                        "customerName": adduser_msg["customerName"],
@@ -42,7 +42,7 @@ class TestAdduser:
                                        "email": adduser_msg["email"],
                                        "remark": adduser_msg["remark"],
                                        "bankAccount": adduser_msg["bankAccount"]},
-                                 headers={"Authorization": get_wms_token()})
+                                 headers={"Authorization": get_token_fixture})
         res = response.json()
         print(res)
         if res == adduser_msg["exp"]:
