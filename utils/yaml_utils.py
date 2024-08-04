@@ -34,6 +34,6 @@ class YamlUtils:
 
 
 if __name__ == '__main__':
-    # YamlUtils.read_yaml("../datas/test_login.yaml", "case_login")
-    YamlUtils.get_non_null_fields("../datas/test_customer_list.yaml", "case_customer_list")
+    YamlUtils.read_yaml("../datas/test_login.yaml", "case_login")
+    # YamlUtils.get_non_null_fields("../datas/test_customer_list.yaml", "case_customer_list")
 
