@@ -265,3 +265,12 @@
 2024-08-05 07:01:41,088 - [test_wms_customer_adduser_003.py - 57] - ERROR : 用例执行失败：直接结果是:1
 2024-08-05 07:01:41,355 - [test_wms_customer_adduser_003.py - 57] - ERROR : 用例执行失败：直接结果是:1
 2024-08-05 07:01:41,355 - [test_wms_customer_adduser_003.py - 57] - ERROR : 用例执行失败：直接结果是:1
+2024-08-05 07:08:26,167 - [test_wms_customer_adduser_003.py - 57] - ERROR : 用例执行失败：直接结果是:1
+2024-08-05 07:08:26,167 - [test_wms_customer_adduser_003.py - 57] - ERROR : 用例执行失败：直接结果是:1
+2024-08-05 07:08:26,333 - [test_wms_customer_adduser_003.py - 57] - ERROR : 用例执行失败：直接结果是:1
+2024-08-05 07:08:26,333 - [test_wms_customer_adduser_003.py - 57] - ERROR : 用例执行失败：直接结果是:1
+2024-08-05 07:08:26,624 - [test_wms_customer_adduser_003.py - 57] - ERROR : 用例执行失败：直接结果是:1
+2024-08-05 07:08:26,624 - [test_wms_customer_adduser_003.py - 57] - ERROR : 用例执行失败：直接结果是:1
+2024-08-05 07:11:01,714 - [test_wms_customer_adduser_003.py - 56] - ERROR : 用例执行失败：直接结果是:1
+2024-08-05 07:11:01,875 - [test_wms_customer_adduser_003.py - 56] - ERROR : 用例执行失败：直接结果是:1
+2024-08-05 07:11:02,155 - [test_wms_customer_adduser_003.py - 56] - ERROR : 用例执行失败：直接结果是:1

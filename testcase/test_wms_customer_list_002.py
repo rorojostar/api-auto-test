@@ -13,7 +13,6 @@ import requests
 from utils.db_utils import DBUtils
 from utils.logs_utils import logger
 from utils.path_utils import yaml_file
-from utils.token_utils import get_wms_token
 from utils.yaml_utils import YamlUtils
 
 
