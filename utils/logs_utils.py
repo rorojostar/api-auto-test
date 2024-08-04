@@ -24,25 +24,25 @@ def get_logger():
     sh1.setLevel("INFO")
 
     # 创建并配置文件处理器，用于记录INFO级别的日志（文件名，追加模式，编码格式）
-    sh2 = logging.FileHandler(filename=INFO_FILE, mode="a", encoding="utf-8")
-    sh2.setLevel("INFO")
+    fh1 = logging.FileHandler(filename=INFO_FILE, mode="a", encoding="utf-8")
+    fh1.setLevel("INFO")
 
     # 创建并配置文件处理器，用于记录ERROR级别的日志（文件名，追加模式，编码格式）
-    sh3 = logging.FileHandler(filename=ERROR_FILE, mode="a", encoding="utf-8")
-    sh3.setLevel("ERROR")
+    fh2 = logging.FileHandler(filename=ERROR_FILE, mode="a", encoding="utf-8")
+    fh2.setLevel("ERROR")
 
     # 为日志记录添加处理器
     logger.addHandler(sh1)
-    logger.addHandler(sh2)
-    logger.addHandler(sh3)
+    logger.addHandler(fh1)
+    logger.addHandler(fh2)
 
     # 设置日志记录内容(时间戳，文件名，行号，日志级别，消息内容)
     fmat = "%(asctime)s - [%(filename)s - %(lineno)d] - %(levelname)s : %(message)s"
     # 生成的日志做格式化
     my_fmat = logging.Formatter(fmat)
     sh1.setFormatter(my_fmat)
-    sh2.setFormatter(my_fmat)
-    sh3.setFormatter(my_fmat)
+    fh1.setFormatter(my_fmat)
+    fh2.setFormatter(my_fmat)
 
     return logger
 
