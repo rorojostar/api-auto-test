@@ -24,11 +24,11 @@ def get_logger():
     sh1.setLevel("INFO")
 
     # 创建并配置文件处理器，用于记录INFO级别的日志（文件名，追加模式，编码格式）
-    fh1 = logging.FileHandler(filename=INFO_FILE, mode="a", encoding="utf-8")
+    fh1 = logging.FileHandler(filename=INFO_FILE, mode="w", encoding="utf-8")
     fh1.setLevel("INFO")
 
     # 创建并配置文件处理器，用于记录ERROR级别的日志（文件名，追加模式，编码格式）
-    fh2 = logging.FileHandler(filename=ERROR_FILE, mode="a", encoding="utf-8")
+    fh2 = logging.FileHandler(filename=ERROR_FILE, mode="w", encoding="utf-8")
     fh2.setLevel("ERROR")
 
     # 为日志记录添加处理器
