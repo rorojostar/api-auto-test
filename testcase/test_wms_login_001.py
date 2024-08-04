@@ -9,9 +9,9 @@
 import allure
 import pytest
 import requests
-from wms_python_yaml.utils.logs_utils import logger
-from wms_python_yaml.utils.path_utils import yaml_file
-from wms_python_yaml.utils.yaml_utils import YamlUtils
+from utils.logs_utils import logger
+from utils.path_utils import yaml_file
+from utils.yaml_utils import YamlUtils
 
 
 def get_uuid():
@@ -23,6 +23,8 @@ def get_uuid():
 
 @allure.feature("wms仓管系统-登陆接口")
 class TestUserLogin:
+
+
     @allure.description("接口测试case")
     @allure.severity("Critical")
     @pytest.mark.parametrize("user_info",
