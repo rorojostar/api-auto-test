@@ -1,21 +1,9 @@
-"""
-※※※※※※※※※※※※※※※※※※※※※※※※※※※
-※   UserName  :   Y.cao ☆彡             
-※   FileName  :   db_utils
-※   Project   ：  北梦测-WMS仓管系统
-※   Time      :   2024/4/18 -- 22:17     
-※※※※※※※※※※※※※※※※※※※※※※※※※※※
-"""
 import pymysql
 
 
 class DBUtils:
-    # 因为条目数是不可能为负数，所以初始化值为-1，如果返回了-1证明程序有问题
     count = -1
 
-    # python的一个特殊方法，也可以叫做构造器(初始化方法)
-    # 当你创建一个类的新的实例，那么这个init就会自动的被调用，用于初始化实例的属性或者执行其他的必要操作
-    # 封装连接对象和游标对象
     def __init__(self):
         try:
             self.conn = pymysql.connect(host="60.204.225.104",
@@ -49,7 +37,6 @@ class DBUtils:
 
     # 查询所有数据
     def find_all(self, sql, params=None):
-        # 先执行commit，避免数据库上次操作未提交导致当前方法报错
         self.conn.commit()
         try:
             if params is None:
@@ -62,7 +49,6 @@ class DBUtils:
 
     # 查询结果集的条目数
     def find_count(self, sql, params=None):
-        # 先执行commit，避免数据库上次操作未提交导致当前方法报错
         self.conn.commit()
         try:
             if params is None:
@@ -83,7 +69,7 @@ class DBUtils:
             if isinstance(params, tuple):
                 self.count = self.cursor.execute(sql, params)
             if isinstance(params, list):
-                self.count = self.cursor.executemany(sql.params)
+                self.count = self.cursor.executemany(sql, params)
             self.conn.commit()
             return self.count
         except Exception as e:

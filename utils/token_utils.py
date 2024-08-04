@@ -20,3 +20,7 @@ def get_wms_token():
                                             "uuid": uuid})
     res = response.json()
     return 'Bearer ' + res['token']
+
+
+if __name__ == '__main__':
+    print(get_wms_token())

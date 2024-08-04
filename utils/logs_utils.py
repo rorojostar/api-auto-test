@@ -7,7 +7,7 @@
 ※※※※※※※※※※※※※※※※※※※※※※※※※※※
 """
 import logging
-from wms_python_yaml.utils.path_utils import INFO_FILE, ERROR_FILE
+from utils.path_utils import INFO_FILE, ERROR_FILE
 
 """
 日志：就是为了记录正确或者错误的接口信息

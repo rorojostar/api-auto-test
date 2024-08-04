@@ -1,7 +1,0 @@
-DEBUG    urllib3.connectionpool:connectionpool.py:232 Starting new HTTP connection (1): 60.204.225.104:9632
-DEBUG    urllib3.connectionpool:connectionpool.py:465 http://60.204.225.104:9632 "GET /captchaImage HTTP/1.1" 200 None
-DEBUG    urllib3.connectionpool:connectionpool.py:232 Starting new HTTP connection (1): 60.204.225.104:9632
-DEBUG    urllib3.connectionpool:connectionpool.py:465 http://60.204.225.104:9632 "POST /login HTTP/1.1" 200 None
-DEBUG    urllib3.connectionpool:connectionpool.py:232 Starting new HTTP connection (1): 60.204.225.104:9632
-DEBUG    urllib3.connectionpool:connectionpool.py:465 http://60.204.225.104:9632 "PUT /wms/supplier HTTP/1.1" 200 None
-INFO     root:test_wms_supplier_004.py:54 接口响应符合预期，用例执行成功，请求参数是：{'id': 54, 'supplierNo': 'wms00001', 'supplierName': 'wms00001', 'bankName': '上海市wms00001', 'bankAccount': '654321000000001', 'payableAmount': 0.0, 'address': '上海市wms00001', 'mobileNo': '13300000001', 'telNo': '021-00010001', 'contact': 'wms00001', 'level': '第二级', 'email': 'wms00001@qq.com-修改后', 'remark': '自动化测试', 'delFlag': 0, 'exp': 1, 'update_supplierNo': 'wms00001', 'update_supplierName': 'wms00001', 'update_bankName': '上海市wms00001', 'update_bankAccount': '654321000000001', 'update_address': '上海市wms00001', 'update_mobileNo': '13300000001', 'update_telNo': '021-00010001', 'update_contact': 'wms00001', 'update_level': '第一级', 'update_email': 'wms00001@qq.com', 'update_remark': '自动化测试'}
